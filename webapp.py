@@ -20,7 +20,7 @@ def upload_file():
         file = request.files['file']
 
         # Specify the upload folder
-        upload_folder = '../AIPrototype2023/static/folder'
+        upload_folder = '../ckd-webpage/static/folder'
 
         # Save the uploaded file in the upload folder
         file_path = os.path.join(upload_folder, file.filename)
