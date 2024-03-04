@@ -9,7 +9,8 @@ from collections import Counter
 model = joblib.load("../ckd-webpage/templates/model_webapp.joblib")
 app = Flask(__name__)
 scaler = StandardScaler()
-upload_folder = '../ckd-webpage/static/folder'
+upload_folder = 'static/folder'
+
 
 @app.route('/myapp')
 def index():
