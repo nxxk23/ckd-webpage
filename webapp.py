@@ -4,8 +4,10 @@ import joblib
 import pandas as pd
 import os
 from collections import Counter
+import logging
 
-
+log = logging.getLogger('werkzeug')
+log.setLevel(logging.CRITICAL)
 model = joblib.load("../ckd-webpage/templates/model_webapp.joblib")
 app = Flask(__name__)
 scaler = StandardScaler()
