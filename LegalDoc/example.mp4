@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Loom | Free Screen &amp; Video Recording Software | Loom</title>
+<!-- Cookie banner only available on marketing site for now. -->
+<!-- Likely to be reenabled once ready to rollout onto webapp-client -->
+<!-- <script type="text/javascript">
+  (function () {
+    fetch('https://location.loom.com', {
+      method: 'GET',
+    })
+      .then(response => {
+        const targetCountries = [];
+        const userCountry = response.headers.get('x-loom-country');
+
+        if (targetCountries.includes(userCountry)) {
+          const head = document.getElementsByTagName('head')[0];
+          const js = document.createElement('script');
+
+          js.type = 'text/javascript';
+          js.src =
+            'https://cmp.osano.com/AzytdUSlZ32371fP0/ba69bebe-a167-497d-9119-634931398b23/osano.js';
+
+          head.append(js);
+        }
+      })
+      .catch(() => {});
+  })();
+</script>
+ -->
+
+
+<meta name="slack-app-id" content="A9G1TH4S2">
+
+<!-- SEO -->
+<meta name="application-name" content="Loom" />
+  <meta name="description" content="Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces." />
+
+  <!-- open graph and twitter tags -->
+    <meta property="og:site_name" content="Loom">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.loom.com">
+  <meta property="og:title" content="Loom | Free Screen &amp; Video Recording Software">
+      <meta property="og:description" content="Use Loom to record quick videos of your screen and cam. Explain anything clearly and easily – and skip the meeting. An essential tool for hybrid workplaces." />
+    <meta property="og:image" content="https://cdn.loom.com/assets/img/og/loom-banner.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="600">
+  <meta name="twitter:card" content="summary_large_image" />
+
+
+
+<!-- Web App Icons -->
+<meta name="application-name" content="Loom">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#ffffff">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Loom">
+<meta name="msapplication-TileColor" content="#b91d47">
+<meta name="msapplication-TileImage" content="https://cdn.loom.com/assets/favicons-loom/mstile-150x150.png">
+
+<link rel="icon" href="https://cdn.loom.com/assets/favicons-loom/favicon.ico" sizes="any">
+<link rel="icon" href="https://cdn.loom.com/assets/favicons-loom/favicon.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="32x32" href="https://cdn.loom.com/assets/favicons-loom/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="https://cdn.loom.com/assets/favicons-loom/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="https://cdn.loom.com/assets/favicons-loom/apple-touch-icon-180x180.png">
+<link rel="mask-icon" color="#625df5" href="https://cdn.loom.com/assets/favicons-loom/safari-pinned-tab.svg">
+
+
+  <link rel="stylesheet" href="https://cdn.loom.com/assets/css/404-c7a3a7c987cdad426725.css" />
+
+  <link rel="stylesheet" href="https://cdn.loom.com/assets/css/vendor~2b620f10-bc82d00b46514c07bef3.css" />
+
+
+<script>
+  window._LOOM_ = "%7O%22OVYYVAT_ERPNCGPUN_FVGR_XRL%22%3N%226YpXtARHNNNNNWnk6kb0YkMJAmsjz7ajrd5QA3Hl%22%2P%22PUEBZR_RKGRAFVBA_VQ%22%3N%22yvrpoqqzxvvvuarqbozyzvyyubqwxqzo%22%2P%22PYVRAG_YBT_YRIRY%22%3N%22sngny%2Preebe%2Pjnea%2Pvasb%22%2P%22PYBHQSEBAG_HEV%22%3N%22pqa.ybbz.pbz%22%2P%22NIFREIRE_PYBHQSEBAG_HEV%22%3N%22yhan.ybbz.pbz%22%2P%22RYRIVB_NPPBHAG_VQ%22%3N%225p7qp041087r9%22%2P%22TBBTYR_NCV_PYVRAG_VQ%22%3N%22443240113960-6zw529e3e24tcc4p9h57a9aqet01v911.nccf.tbbtyrhfrepbagrag.pbz%22%2P%22YBBZ_QRFXGBC_CEBGBPBY%22%3N%22ybbzQrfxgbc%3N%2S%2S%22%2P%22ZHK_RAI_XRL%22%3N%229ntt7cyq771c850zs45zfatc3%22%2P%22CHFU_FREIRE_CHOYVP_XRL%22%3N%22OSMAlOrBig4yrVK8OhRu7u2-7lFWCL2bSfWdV5HyfTxa57ZKc924pqoufgdF69Uz-IYo1wXEEm4LnRu7qTeFKFZ%22%2P%22FGEVCR_CHOYVP_XRL%22%3N%22cx_yvir_ZT87GpsZRyPHEEBsexfSFZ8k%22%2P%22QNGNQBT_EHZ_NCCYVPNGVBA_VQ%22%3N%227ns92855-r997-4q9o-nn41-839r1p64r6s3%22%2P%22QNGNQBT_EHZ_PYVRAG_GBXRA%22%3N%22choo1955571qp736r541o72313p6942242s%22%2P%22QNGNQBT_EHZ_RANOYR%22%3N%22gehr%22%2P%22QNGNQBT_EHZ_FREIVPR%22%3N%22ybbz-cebq%22%2P%22QNGNQBT_EHZ_FNZCYR_ENGR%22%3N%2215%22%2P%22QNGNQBT_EHZ_FRFFVBA_ERCYNL_FNZCYR_ENGR%22%3N%220%22%2P%22QNGNQBT_YBT_PYVRAG_GBXRA%22%3N%22cho6n5r653719oonqp7o8q28o628o09oq41%22%2P%22QNGNQBT_YBT_RANOYR%22%3N%22gehr%22%2P%22QNGNQBT_YBT_FNZCYR_ENGR%22%3N%2210%22%2P%22QNGNQBT_YBT_FREIVPR%22%3N%22jroncc%22%2P%22YBBZ_FQX_NCV_XRL%22%3N%22677no500-qo70-4087-91ns-6rsqo06sss68%22%2P%22PNAAL_VB_NCC_VQ%22%3N%2258n6799q8q61o9968qnq922n%22%2P%22PBURER_PYVRAG_XRL%22%3N%22J-YswQFDvvMv-ud7T761GKB1%22%2P%22CNPXNTRF_PYBHQSEBAG_HEV%22%3N%22cnpxntrf.ybbz.pbz%22%2P%22NABA_PBBXVR_QBZNVA%22%3N%22ybbz.pbz%22%2P%22YBBZ_ONER_HEV%22%3N%22ybbz.pbz%22%2P%22YBBZ_HEV%22%3N%22jjj.ybbz.pbz%22%2P%22ABQR_RAI%22%3N%22cebqhpgvba%22%2P%22YBBZ_IREFVBA%22%3N%22q2999qs%22%2P%22FRAGEL_ERYRNFR%22%3N%22q2999qso2o4s0n06sr65ns7673rnpq8147s7rs02%22%2P%22YBBZ_ERPBEQ_JF_HEV%22%3N%22erpbeq.ybbz.pbz%22%7Q";
+
+
+
+
+
+
+</script>
+
+<script type="text/javascript">
+  (function(l, e, a, p) {
+    window.UserLeap = function() {
+      U._queue.push(arguments);
+    };
+    var U = window.UserLeap;
+    U.appId = a;
+    U._queue = [];
+    a = l.createElement('script');
+    a.async = 1;
+    a.src = e + '?id=' + U.appId;
+    p = l.getElementsByTagName('script')[0];
+    p.parentNode.insertBefore(a, p);
+  })(
+    document,
+    'https://cdn.userleap.com/shim.js',
+    'KVj_WYX4LR'
+  );
+</script>
+
+<script>
+!function(t,e,n,s,a,c,i,o,p){t.AppsFlyerSdkObject=a,t.AF=t.AF||function(){
+(t.AF.q=t.AF.q||[]).push([Date.now()].concat(Array.prototype.slice.call(arguments)))},
+t.AF.id=t.AF.id||i,t.AF.plugins={},o=e.createElement(n),p=e.getElementsByTagName(n)[0],o.async=1,
+o.src="https://websdk.appsflyer.com?"+(c.length>0?"st="+c.split(",").sort().join(",")+"&":"")+(i.length>0?"af_id="+i:""),
+p.parentNode.insertBefore(o,p)}(window,document,"script",0,"AF","banners",{banners: {key: "181626e0-d6cd-424c-ae26-92db1521cfe8"}});
+// Smart Banners are by default set to the max z-index value, so they won't be hidden by the website elements. This can be changed if you want some website components to be on top of the banner.
+AF('banners', 'showBanner', { bannerZIndex: 1000, additionalParams: { p1: "v1", p2: "v2"}});
+</script>
+
+
+<!-- Download Canny SDK -->
+<script>window.loomSSRUser && !function(w,d,i,s){function l(){if(!d.getElementById(i)){var f=d.getElementsByTagName(s)[0],e=d.createElement(s);e.type="text/javascript",e.async=!0,e.src="https://canny.io/sdk.js",f.parentNode.insertBefore(e,f)}}if("function"!=typeof w.Canny){var c=function(){c.q.push(arguments)};c.q=[],w.Canny=c,"complete"===d.readyState?l():w.attachEvent?w.attachEvent("onload",l):w.addEventListener("load",l,!1)}}(window,document,"canny-jssdk","script");</script>
+
+</head>
+
+<body>
+  <main id="container"></main>
+
+  <script type="text/javascript">
+    !function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","debug","page","once","off","on","addSourceMiddleware","addIntegrationMiddleware","setAnonymousId","addDestinationMiddleware"];analytics.factory=function(e){return function(){var t=Array.prototype.slice.call(arguments);t.unshift(e);analytics.push(t);return analytics}};for(var e=0;e<analytics.methods.length;e++){var key=analytics.methods[e];analytics[key]=analytics.factory(key)}analytics.load=function(key,e){var t=document.createElement("script");t.type="text/javascript";t.async=!0;t.src="https://evs.sgmt.loom.com/yhPeelcEJD/eejxbDiFfK.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n);analytics._loadOptions=e};analytics.SNIPPET_VERSION="4.13.1";
+  analytics.load("rggRFsCK29LOKVGyTLpt9xoXVhNNXaP6", { "integrations": {} });
+
+  
+
+  }}();
+</script>
+
+  
+  <script src="https://cdn.loom.com/assets/js/0runtime-8eef5b7586c3c49c6967.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/404-7cec5e26c40f8bd75351.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/loomhq-527c0c5c3eda42e53123.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~053a61fb-283df4a8ad1cf6d7bbf8.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~11319222-edc0d74b26439fc74585.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~29d82523-ff5449f8309eae7799b0.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~2a6c62b0-7c050ff411e44ac9f632.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~2b620f10-845f5d8efb4ac7f3b95b.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~3951b152-7be0d616b55ef7bd893e.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~41877d74-aa851df2b37e67364875.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~43a67904-a1b1a7ea1ebc198a9478.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~47c701b7-6d3af9b6bc7caf1340d5.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~5db7b342-a61e7ad47618ae3d25e2.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~8957114a-05a07cfdd84688d9f0da.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~930c4164-351843bef84dc355c393.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~a083a43d-6a57c260a59674c9b2f4.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~a1943931-d920cdc9b48ceedee1ae.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~b63e1591-e7fd9b78783f62d79e95.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~c13c8e91-8cb1686db1fa1617886d.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~da2e425e-5594d5767ba29623cf92.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~ec3512a5-776d50531aeb4cd85dab.js"></script>
+
+  <script src="https://cdn.loom.com/assets/js/vendor~ecc6a2a7-f111ab31a455c6980200.js"></script>
+
+
+</body>
+
+</html>
