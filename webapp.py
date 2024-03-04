@@ -10,7 +10,7 @@ model = joblib.load("../ckd-webpage/templates/model_webapp.joblib")
 app = Flask(__name__)
 scaler = StandardScaler()
 upload_folder = 'static/folder'
-
+os.makedirs(upload_folder, exist_ok=True)
 
 @app.route('/myapp')
 def index():
