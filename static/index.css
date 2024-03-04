@@ -1,0 +1,638 @@
+.upload-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+  }
+  .upload-container1 {
+    top: 28px;
+    right: -25px;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+  }
+  .upload-upload {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: flex-start;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .upload-group3728 {
+    top: 175px;
+    left: 287px;
+    width: 56px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-star1 {
+    top: 0px;
+    left: 0px;
+    width: 34px;
+    height: 34px;
+    opacity: 0.40;
+    position: absolute;
+  }
+  .upload-star2 {
+    top: 38px;
+    left: 34px;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+  }
+  .input {
+    padding: 10px 4px;
+  }
+  .upload-frame9 {
+    gap: 10px;
+    width: 147px;
+    display: flex;
+    padding: 15px 40px;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: rgba(175, 0, 0, 1);
+  }
+  .upload-text {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-banner {
+    top: 136px;
+    left: 40px;
+    width: 1274px;
+    height: 714px;
+    display: flex;
+    position: absolute;
+    align-items: flex-end;
+    flex-shrink: 1;
+    justify-content: center;
+  }
+  .upload-frame8button {
+    gap: 10px;
+    top: 478px;
+    left: 43px;
+    display: flex;
+    padding: 17px 30px;
+    position: absolute;
+    box-shadow: 2px 2px 10px 0px #d4d4d4;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: rgba(21, 44, 23, 0.5899999737739563);
+  }
+  .upload-text02 {
+    color: rgba(0, 0, 0, 0.6200000047683716);
+    height: auto;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-text04 {
+    top: 357px;
+    left: 46px;
+    color: rgb(0, 0, 0);
+    width: 677px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    text-align: left;
+    font-family: "DM Sans";
+    font-weight: 500;
+    line-height: 170%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-text05 {
+    color: #000000;
+  }
+  .upload-text06 {
+    color: #000000;
+  }
+  .upload-text07 {
+    color: #000000;
+  }
+  .upload-text08 {
+    color: #af0000;
+  }
+  .upload-text09 {
+    color: #af0000;
+  }
+  .upload-text10 {
+    color: white;
+    text-align: center;
+  }
+  .upload-frame7 {
+    gap: 10px;
+    left: 500px;
+    bottom: -0.40000152587890625px;
+    width: 250px;
+    display: flex;
+    padding: 12px 35px;
+    position: absolute;
+    box-shadow: 5px 5px 10px 0px #d4d4d4;
+    align-items: flex-start;
+    border-radius: 10px;
+    background-color: rgba(95, 95, 95, 0.5099999904632568);
+  }
+  .upload-text11 {
+    color: rgba(255, 255, 255, 1);
+    height: auto;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-bannerright {
+    top: 0px;
+    left: 605px;
+    width: 670px;
+    height: 697px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-image1908 {
+    top: 0px;
+    left: 79px;
+    width: 504px;
+    height: 542px;
+    opacity: 0.30;
+    position: absolute;
+  }
+  .upload-image1909 {
+    top: 10px;
+    left: 109px;
+    width: 534px;
+    height: 556px;
+    position: absolute;
+  }
+  .input-page-navlink {
+    display: contents;
+  }
+  .upload-group3708 {
+    top: 55px;
+    left: 564.4267578125px;
+    width: 79.09634399414062px;
+    height: 79.09634399414062px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .upload-image19091 {
+    top: 26.675780581426807px;
+    left: 3.6859401295077987px;
+    width: 45px;
+    height: 45px;
+    opacity: 0.60;
+    position: absolute;
+  }
+  .upload-image96 {
+    top: 25.000000528171427px;
+    left: 8.469111708130185px;
+    width: 45px;
+    height: 45px;
+    position: absolute;
+  }
+  .upload-group3713 {
+    top: 130px;
+    left: 0px;
+    width: 275px;
+    height: 165px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-group3707 {
+    top: 0px;
+    left: 0px;
+    width: 275px;
+    height: 165px;
+    display: flex;
+    position: absolute;
+    box-shadow: 2px 2px 5px 0px #d4d4d4;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-radius: var(--dl-radius-radius-radius8);
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .upload-group3706 {
+    top: 18.99999886751175px;
+    left: 22.99999862909317px;
+    width: 231px;
+    height: 128px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-text13 {
+    left: 1.9999998807907104px;
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-group3705 {
+    top: 109.99999344348907px;
+    left: 0px;
+    width: 231px;
+    height: 18px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-text15 {
+    color: var(--dl-color-default-p2);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-text16 {
+    left: 116.99999302625656px;
+    color: var(--dl-color-default-p2);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-text17 {
+    left: 221.99998676776886px;
+    color: var(--dl-color-default-p2);
+    height: auto;
+    position: absolute;
+    font-size: 14px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-group3709 {
+    top: 43.26657991012439px;
+    left: 0.9999999403953552px;
+    width: 228px;
+    height: 56.46729278564453px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-vector34 {
+    top: 0px;
+    left: 0px;
+    width: 228px;
+    height: 56px;
+    position: absolute;
+  }
+  .upload-vector33 {
+    top: 0px;
+    left: 0px;
+    width: 228px;
+    height: 48px;
+    position: absolute;
+  }
+  .upload-frame8 {
+    gap: 5px;
+    top: 18.99999886751175px;
+    left: 181.99998915195465px;
+    display: flex;
+    padding: 4px 8px;
+    position: absolute;
+    align-items: center;
+    border-radius: var(--dl-radius-radius-radius8);
+    justify-content: center;
+    background-color: rgba(255, 244, 204, 1);
+  }
+  .upload-text18 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    font-size: 12px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-vector {
+    width: 8px;
+    height: 5px;
+  }
+  .upload-group3714 {
+    top: 351px;
+    left: 413px;
+    width: 241px;
+    height: 91px;
+    display: flex;
+    position: absolute;
+    box-shadow: 2px 2px 10px 0px #d4d4d4;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-radius: var(--dl-radius-radius-radius8);
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .upload-group3715 {
+    top: 21px;
+    left: 111px;
+    width: 84px;
+    height: 48px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-text20 {
+    color: rgba(0, 0, 0, 1);
+    height: auto;
+    position: absolute;
+    font-size: 18px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-text22 {
+    top: 27px;
+    left: 12px;
+    color: var(--dl-color-default-p2);
+    height: auto;
+    position: absolute;
+    font-size: 16px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-rectangle2774 {
+    top: 11px;
+    left: 14px;
+    width: 73px;
+    height: 70px;
+    position: absolute;
+    border-radius: 10px;
+  }
+  .upload-group3720 {
+    top: 519px;
+    left: 121px;
+    width: 482px;
+    height: 93.72222137451172px;
+    display: flex;
+    position: absolute;
+    box-shadow: 2px 2px 10px 0px #d4d4d4;
+    align-items: flex-start;
+    flex-shrink: 1;
+    border-radius: var(--dl-radius-radius-radius8);
+    background-color: rgba(255, 255, 255, 1);
+  }
+  .upload-group3719 {
+    top: 22px;
+    left: 50px;
+    width: 378px;
+    height: 49.00008773803711px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-group3716 {
+    top: 0px;
+    left: 0px;
+    width: 160.00003051757812px;
+    height: 49.00008773803711px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-group3712 {
+    top: 2.0000879764556885px;
+    left: 42.000038146972656px;
+    width: 118.00003051757812px;
+    height: 46.999908447265625px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-text24 {
+    color: rgba(0, 0, 0, 1);
+    width: 118px;
+    height: auto;
+    position: absolute;
+    font-size: 16.066667556762695px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-text26 {
+    top: 20.999908447265625px;
+    left: 4.999969482421875px;
+    color: var(--dl-color-default-p2);
+    width: 99px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-image374 {
+    top: 0px;
+    left: 0px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+  }
+  .upload-group3717 {
+    top: 2px;
+    left: 219px;
+    width: 159px;
+    height: 45px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-group3711 {
+    top: 0px;
+    left: 0px;
+    width: 159px;
+    height: 45px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .upload-text28 {
+    left: 46px;
+    color: rgba(0, 0, 0, 1);
+    width: 113px;
+    height: auto;
+    position: absolute;
+    font-size: 16.066667556762695px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-text30 {
+    top: 19px;
+    left: 50px;
+    color: var(--dl-color-default-p2);
+    width: 105px;
+    height: auto;
+    position: absolute;
+    font-size: 15px;
+    font-style: Medium;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 500;
+    line-height: normal;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .upload-image1910 {
+    top: 0px;
+    left: 0px;
+    width: 50px;
+    height: 45px;
+    position: absolute;
+  }
+  .upload-star5 {
+    top: 80px;
+    left: 133px;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+  }
+  .upload-star6 {
+    top: 486px;
+    left: 643px;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+  }
+  .upload-star7 {
+    top: 164px;
+    left: 643px;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+  }
+  .upload-text32 {
+    top: 345px;
+    left: 81px;
+    color: rgb(0, 0, 0);
+    width: 598px;
+    height: auto;
+    position: absolute;
+    font-size: 63px;
+    font-style: Bold;
+    text-align: left;
+    font-family: "DM Sans";
+    font-weight: 700;
+    line-height: 111.5%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  @media(max-width: 900px) {
+    .upload-frame9 {
+      left: 400px;
+      bottom: 18px;
+    }
+    .upload-banner {
+      left: 0px;
+      width: 1191px;
+    }
+    .upload-text04 {
+      top: 349px;
+      left: 32px;
+    }
+    .upload-frame7 {
+      left: 149px;
+      bottom: 18px;
+    }
+    .upload-bannerright {
+      top: -23px;
+      left: 480px;
+      right: 36px;
+    }
+    .upload-text32 {
+      top: 338px;
+      left: 32px;
+    }
+  }

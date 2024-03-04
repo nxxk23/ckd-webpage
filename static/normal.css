@@ -1,0 +1,253 @@
+.normal-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .normal-text {
+    top: 50px;
+    left: 0px;
+    color: rgba(0, 0, 0, 1);
+    right: 0px;
+    width: 919px;
+    height: auto;
+    margin: auto;
+    position: absolute;
+    font-size: 63px;
+    font-style: bold;
+    text-align: center;
+    font-family: DM Sans;
+    font-weight: 700;
+    line-height: 111.50001287460327%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .normal-star6 {
+    top: 195px;
+    left: 939px;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+  }
+  .normal-star8 {
+    top: 763px;
+    left: 1140px;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+  }
+  .normal-group3728 {
+    top: 264px;
+    left: 160px;
+    width: 56px;
+    height: 60px;
+    display: flex;
+    position: absolute;
+    align-items: flex-start;
+    flex-shrink: 1;
+  }
+  .normal-star1 {
+    top: 0px;
+    left: 0px;
+    width: 34px;
+    height: 34px;
+    opacity: 0.40;
+    position: absolute;
+  }
+  .normal-star2 {
+    top: 38px;
+    left: 34px;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+  }
+  .normal-star7 {
+    top: 470px;
+    left: 667px;
+    width: 27px;
+    height: 27px;
+    position: absolute;
+  }
+  .normal-star61 {
+    top: 753px;
+    left: 478px;
+    width: 48px;
+    height: 48px;
+    position: absolute;
+  }
+  .normal-image1908 {
+    top: 221px;
+    left: 244px;
+    width: 504px;
+    height: 542px;
+    opacity: 0.30;
+    position: absolute;
+  }
+  .normal-container1 {
+    top: 262px;
+    right: 132px;
+    width: 565px;
+    height: 325px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .normal-rectangle2771 {
+    top: 23px;
+    left: 10px;
+    width: 620px;
+    height: 391px;
+    position: absolute;
+    border-radius: 12.774282455444336px;
+  }
+  .normal-text2 {
+    top: 140px;
+    left: 207px;
+    color: rgb(150, 47, 47);
+    width: 215px;
+    height: auto;
+    position: absolute;
+    font-size: 30px;
+    font-style: normal;
+    text-align: center;
+    font-family: "DM Sans";
+    font-weight: 600;
+    line-height: 170%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .normal-text3 {
+    color: rgb(0, 0, 0);
+    right: -5px;
+    width: 515px;
+    bottom: -8px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: center;
+    font-family: "DM Sans";
+    font-weight: 500;
+    line-height: 170%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .normal-text4 {
+    top: 92px;
+    left: 86px;
+    color: rgb(0, 0, 0);
+    width: 215px;
+    height: auto;
+    position: absolute;
+    font-size: 20px;
+    font-style: Medium;
+    text-align: left;
+    font-family: "DM Sans";
+    font-weight: 500;
+    line-height: 170%;
+    font-stretch: normal;
+    text-decoration: none;
+  }
+  .normal-image1909 {
+    top: 173px;
+    left: 126px;
+    width: 534px;
+    height: 556px;
+    position: absolute;
+  }
+  @media(max-width: 1200px) {
+    .normal-text {
+      top: 145px;
+      left: 0px;
+      right: 0px;
+      margin: auto;
+      text-align: center;
+    }
+    .normal-star8 {
+      top: 736px;
+      left: 890px;
+    }
+    .normal-star1 {
+      top: -103px;
+      left: 18px;
+    }
+    .normal-star2 {
+      top: -64px;
+      left: -34px;
+    }
+    .normal-image1908 {
+      top: 319px;
+      left: 69px;
+      width: 426px;
+      height: 387px;
+    }
+    .normal-container1 {
+      top: 26px;
+      left: -29px;
+    }
+    .normal-rectangle2771 {
+      top: 330px;
+      left: 500px;
+      right: -60px;
+      width: 700px;
+      height: 364px;
+      position: absolute;
+    }
+    .normal-text2 {
+      top: 442px;
+      left: 781px;
+      color: rgb(150, 47, 47);
+      font-size: 30px;
+      font-style: normal;
+      font-family: DM Sans;
+      font-weight: 700;
+      line-height: 170%;
+      text-decoration: none;
+    }
+    .normal-text3 {
+      top: 517px;
+      left: 600px;
+      color: rgb(0, 0, 0);
+      right: 288px;
+      bottom: 75.5999984741211px;
+      font-size: 20px;
+      font-family: DM Sans;
+      font-weight: 500;
+      line-height: 170%;
+      text-decoration: none;
+    }
+    .normal-text4 {
+      top: 379px;
+      left: 634px;
+    }
+    .normal-image1909 {
+      top: 269px;
+      left: -18px;
+      animation-name: backOutUp;
+      animation-delay: 0s;
+      animation-duration: 30s;
+      animation-direction: normal;
+      animation-iteration-count: 100;
+      animation-timing-function: ease;
+    }
+  }
+  @media(max-width: 991px) {
+    .normal-text {
+      top: 34px;
+      left: 33px;
+    }
+    .normal-container1 {
+      top: 316px;
+      left: -333px;
+    }
+    .normal-image1909 {
+      top: 132px;
+      flex: 1;
+      left: 218px;
+    }
+  }
