@@ -9,6 +9,7 @@ from collections import Counter
 model = joblib.load("../ckd-webpage/templates/model_webapp.joblib")
 app = Flask(__name__)
 scaler = StandardScaler()
+upload_folder = '../ckd-webpage/static/folder'
 
 @app.route('/myapp')
 def index():
@@ -18,9 +19,6 @@ def index():
 def upload_file():
     if request.method == 'POST':
         file = request.files['file']
-
-        # Specify the upload folder
-        upload_folder = '../ckd-webpage/static/folder'
 
         # Save the uploaded file in the upload folder
         file_path = os.path.join(upload_folder, file.filename)
@@ -56,26 +54,5 @@ def upload_file():
             
         return render_template(result_template, predictions=predictions)
     
-@app.route('/prediction_result/<result_type>', methods=['GET'])
-def prediction_result(result_type):
-    # สร้างตาราง HTML
-    table_html = '<table border="1"><tr><th>Index</th><th>Prediction</th></tr>'
-    for index, prediction in enumerate(predictions):
-        table_html += f'<tr><td>{index + 1}</td><td>{prediction}</td></tr>'
-    table_html += '</table>'
-
-    # เลือก HTML template ตามประเภทผลการทำนาย
-    template_name = 'chronic.html' if result_type == 'chronic' else 'normal.html'
-
-    # ใส่ตารางลงใน HTML template และส่งไปแสดงผล
-    return render_template(template_name, table=table_html, predictions=predictions)
-
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True, port=5001)
-
-  #padding-left: 40px;
-  #padding-bottom: 15px;
-  #padding-top: 15px;
-  #padding-right: 20px;
-
-#style="bottom: 0px; text-align: center; left: 700px;"
