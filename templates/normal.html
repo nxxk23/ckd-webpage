@@ -29,6 +29,46 @@
 
       }
     </style>
+    <style>
+      
+      /* เพิ่มสไตล์ให้กับตาราง */
+      table {
+            width: 400px; /* กำหนดความกว้างให้เต็มหน้าจอ */
+            max-width: 400px; /* กำหนดความกว้างสูงสุด */
+            border-collapse: collapse;
+            margin-top: 800px;
+            margin-left: 540px;
+      }
+
+      /* กำหนดสีพื้นหลังแถวที่สลับ */
+      table tr:nth-child(even) {
+          background-color: #f2f2f2;
+      }
+
+      /* กำหนดสีพื้นหลังแถวที่เหลือ */
+      table tr:nth-child(odd) {
+          background-color: #ffffff;
+      }
+
+      /* กำหนดสีขอบของตาราง */
+      table, th, td {
+          border: 1px solid rgb(129, 129, 129);
+      }
+
+      /* กำหนดระยะระหว่างขอบและข้อความ */
+      th, td {
+          width: 20px;
+          padding: 10px;
+          text-align: left;
+      }
+
+      /* ปรับแต่งสไตล์ส่วนหัวของตาราง */
+      th {
+          background-color: rgb(150, 47, 47);
+          color: white;
+      }
+
+    </style>
     <link
       rel="stylesheet"
       href="https://unpkg.com/animate.css@4.1.1/animate.css"
@@ -264,18 +304,9 @@
     />
   </head>
   <body>
-    <h1>Normal Result</h1>
-
-    <h2>Predictions List:</h2>
-    <ul>
-        {% for prediction in predictions %}
-            <li>{{ prediction }}</li>
-        {% endfor %}
-    </ul>
-
-    <h2>Predictions Table:</h2>
     {{ table | safe }}
-
+    <p style="font-weight: bold;color: black;margin-top: -900px;border-left: 600px;padding-left: 600px;width: 1350px;">Prediction Class 0: Normal Kidney</p>
+    <p style="font-weight: bold;padding-left: 600px;width: 1350px;">Prediction Class 1: Chronic Kidney</p>
     <link rel="stylesheet" href="{{ url_for ('static', filename='style.css')}}" />
     <div>
       <link href="{{ url_for ('static', filename='normal.css')}}" rel="stylesheet" />

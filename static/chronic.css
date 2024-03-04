@@ -1,234 +1,234 @@
 .chronic-container {
-    width: 100%;
-    display: flex;
-    overflow: auto;
-    min-height: 100vh;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-  }
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.chronic-text {
+  top: 50px;
+  left: 0px;
+  color: rgba(0, 0, 0, 1);
+  right: 0px;
+  width: 919px;
+  height: auto;
+  margin: auto;
+  position: absolute;
+  font-size: 63px;
+  font-style: Bold;
+  text-align: center;
+  font-family: DM Sans;
+  font-weight: 700;
+  line-height: 111.50001287460327%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.chronic-container1 {
+  top: 210px;
+  right: 132px;
+  width: 565px;
+  height: 325px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.chronic-rectangle2771 {
+  top: -1px;
+  left: -27px;
+  width: 617px;
+  height: 369px;
+  position: absolute;
+  border-radius: 12.774282455444336px;
+}
+.chronic-text2 {
+  top: 113px;
+  left: 178px;
+  color: rgb(150, 47, 47);
+  width: 230px;
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+  font-family: "DM Sans";
+  font-weight: 900;
+  line-height: 170%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.chronic-text3 {
+  left: 25px;
+  color: rgb(0, 0, 0);
+  width: 515px;
+  bottom: 26.599998474121094px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: center;
+  font-family: "DM Sans";
+  font-weight: 500;
+  line-height: 170%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.chronic-text4 {
+  top: 47px;
+  left: 50px;
+  color: rgb(0, 0, 0);
+  width: 215px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  font-style: Medium;
+  text-align: left;
+  font-family: "DM Sans";
+  font-weight: 500;
+  line-height: 170%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.chronic-star6 {
+  top: 195px;
+  left: 939px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+}
+.chronic-star8 {
+  top: 763px;
+  left: 1140px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+}
+.chronic-group3728 {
+  top: 264px;
+  left: 160px;
+  width: 56px;
+  height: 60px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.chronic-star1 {
+  top: 0px;
+  left: 0px;
+  width: 34px;
+  height: 34px;
+  opacity: 0.40;
+  position: absolute;
+}
+.chronic-star2 {
+  top: 38px;
+  left: 34px;
+  width: 22px;
+  height: 22px;
+  position: absolute;
+}
+.chronic-star7 {
+  top: 470px;
+  left: 667px;
+  width: 27px;
+  height: 27px;
+  position: absolute;
+}
+.chronic-star61 {
+  top: 753px;
+  left: 478px;
+  width: 48px;
+  height: 48px;
+  position: absolute;
+}
+.chronic-image1908 {
+  top: 249px;
+  left: 204px;
+  width: 504px;
+  height: 542px;
+  opacity: 0.30;
+  position: absolute;
+}
+.chronic-image1909 {
+  top: 130px;
+  left: 150px;
+  width: 534px;
+  height: 556px;
+  position: absolute;
+}
+@media(max-width: 1200px) {
   .chronic-text {
-    top: 50px;
+    top: 145px;
     left: 0px;
-    color: rgba(0, 0, 0, 1);
     right: 0px;
-    width: 919px;
-    height: auto;
     margin: auto;
-    position: absolute;
-    font-size: 63px;
-    font-style: Bold;
     text-align: center;
-    font-family: DM Sans;
-    font-weight: 700;
-    line-height: 111.50001287460327%;
-    font-stretch: normal;
-    text-decoration: none;
   }
   .chronic-container1 {
-    top: 210px;
-    right: 132px;
-    width: 565px;
-    height: 325px;
-    display: flex;
-    position: absolute;
-    align-items: center;
-    flex-direction: column;
-    justify-content: flex-start;
+    top: 11px;
+    left: -87px;
   }
   .chronic-rectangle2771 {
-    top: -1px;
-    left: -27px;
-    width: 617px;
-    height: 369px;
+    top: 330px;
+    left: 500px;
+    right: -60px;
+    width: 700px;
+    height: 364px;
     position: absolute;
-    border-radius: 12.774282455444336px;
   }
   .chronic-text2 {
-    top: 113px;
-    left: 178px;
+    top: 442px;
+    left: 781px;
     color: rgb(150, 47, 47);
-    width: 230px;
+    width: var(--dl-size-size-xxlarge);
     height: auto;
-    position: absolute;
     font-size: 30px;
     font-style: normal;
-    text-align: center;
-    font-family: "DM Sans";
-    font-weight: 900;
+    font-family: DM Sans;
+    font-weight: 700;
     line-height: 170%;
-    font-stretch: normal;
     text-decoration: none;
   }
   .chronic-text3 {
-    left: 25px;
+    top: 517px;
+    left: 600px;
     color: rgb(0, 0, 0);
-    width: 515px;
-    bottom: 26.599998474121094px;
-    height: auto;
-    position: absolute;
+    right: 288px;
+    bottom: 75.5999984741211px;
     font-size: 20px;
-    font-style: Medium;
-    text-align: center;
-    font-family: "DM Sans";
+    font-family: DM Sans;
     font-weight: 500;
     line-height: 170%;
-    font-stretch: normal;
     text-decoration: none;
   }
   .chronic-text4 {
-    top: 47px;
-    left: 50px;
-    color: rgb(0, 0, 0);
-    width: 215px;
-    height: auto;
-    position: absolute;
-    font-size: 20px;
-    font-style: Medium;
-    text-align: left;
-    font-family: "DM Sans";
-    font-weight: 500;
-    line-height: 170%;
-    font-stretch: normal;
-    text-decoration: none;
-  }
-  .chronic-star6 {
-    top: 195px;
-    left: 939px;
-    width: 27px;
-    height: 27px;
-    position: absolute;
+    top: 379px;
+    left: 634px;
   }
   .chronic-star8 {
-    top: 763px;
-    left: 1140px;
-    width: 27px;
-    height: 27px;
-    position: absolute;
-  }
-  .chronic-group3728 {
-    top: 264px;
-    left: 160px;
-    width: 56px;
-    height: 60px;
-    display: flex;
-    position: absolute;
-    align-items: flex-start;
-    flex-shrink: 1;
+    top: 736px;
+    left: 890px;
   }
   .chronic-star1 {
-    top: 0px;
-    left: 0px;
-    width: 34px;
-    height: 34px;
-    opacity: 0.40;
-    position: absolute;
+    top: -103px;
+    left: 18px;
   }
   .chronic-star2 {
-    top: 38px;
-    left: 34px;
-    width: 22px;
-    height: 22px;
-    position: absolute;
-  }
-  .chronic-star7 {
-    top: 470px;
-    left: 667px;
-    width: 27px;
-    height: 27px;
-    position: absolute;
-  }
-  .chronic-star61 {
-    top: 753px;
-    left: 478px;
-    width: 48px;
-    height: 48px;
-    position: absolute;
+    top: -64px;
+    left: -34px;
   }
   .chronic-image1908 {
-    top: 249px;
-    left: 204px;
-    width: 504px;
-    height: 542px;
-    opacity: 0.30;
-    position: absolute;
+    top: 319px;
+    left: 69px;
+    width: 426px;
+    height: 387px;
   }
   .chronic-image1909 {
-    top: 130px;
-    left: 150px;
-    width: 534px;
-    height: 556px;
-    position: absolute;
+    top: 242px;
+    left: -33px;
   }
-  @media(max-width: 1200px) {
-    .chronic-text {
-      top: 145px;
-      left: 0px;
-      right: 0px;
-      margin: auto;
-      text-align: center;
-    }
-    .chronic-container1 {
-      top: 11px;
-      left: -87px;
-    }
-    .chronic-rectangle2771 {
-      top: 330px;
-      left: 500px;
-      right: -60px;
-      width: 700px;
-      height: 364px;
-      position: absolute;
-    }
-    .chronic-text2 {
-      top: 442px;
-      left: 781px;
-      color: rgb(150, 47, 47);
-      width: var(--dl-size-size-xxlarge);
-      height: auto;
-      font-size: 30px;
-      font-style: normal;
-      font-family: DM Sans;
-      font-weight: 700;
-      line-height: 170%;
-      text-decoration: none;
-    }
-    .chronic-text3 {
-      top: 517px;
-      left: 600px;
-      color: rgb(0, 0, 0);
-      right: 288px;
-      bottom: 75.5999984741211px;
-      font-size: 20px;
-      font-family: DM Sans;
-      font-weight: 500;
-      line-height: 170%;
-      text-decoration: none;
-    }
-    .chronic-text4 {
-      top: 379px;
-      left: 634px;
-    }
-    .chronic-star8 {
-      top: 736px;
-      left: 890px;
-    }
-    .chronic-star1 {
-      top: -103px;
-      left: 18px;
-    }
-    .chronic-star2 {
-      top: -64px;
-      left: -34px;
-    }
-    .chronic-image1908 {
-      top: 319px;
-      left: 69px;
-      width: 426px;
-      height: 387px;
-    }
-    .chronic-image1909 {
-      top: 242px;
-      left: -33px;
-    }
-  }
+}

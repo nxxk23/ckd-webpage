@@ -8,7 +8,7 @@
     <meta property="twitter:card" content="summary_large_image" />
 
     <style data-tag="reset-style-sheet">
-      html {  line-height: 1.15;} body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
     </style>
     <style data-tag="default-style-sheet">
       html {
@@ -27,6 +27,46 @@
         background-color: var(--dl-color-gray-white);
 
       }
+    </style>
+    <style>
+      
+      /* เพิ่มสไตล์ให้กับตาราง */
+      table {
+            width: 400px; /* กำหนดความกว้างให้เต็มหน้าจอ */
+            max-width: 400px; /* กำหนดความกว้างสูงสุด */
+            border-collapse: collapse;
+            margin-top: 800px;
+            margin-left: 540px;
+      }
+
+      /* กำหนดสีพื้นหลังแถวที่สลับ */
+      table tr:nth-child(even) {
+          background-color: #f2f2f2;
+      }
+
+      /* กำหนดสีพื้นหลังแถวที่เหลือ */
+      table tr:nth-child(odd) {
+          background-color: #ffffff;
+      }
+
+      /* กำหนดสีขอบของตาราง */
+      table, th, td {
+          border: 1px solid rgb(129, 129, 129);
+      }
+
+      /* กำหนดระยะระหว่างขอบและข้อความ */
+      th, td {
+          width: 20px;
+          padding: 10px;
+          text-align: left;
+      }
+
+      /* ปรับแต่งสไตล์ส่วนหัวของตาราง */
+      th {
+          background-color: rgb(150, 47, 47);
+          color: white;
+      }
+
     </style>
     <link
       rel="stylesheet"
@@ -263,19 +303,9 @@
     />
   </head>
   <body>
-    <h1>Chronic Result</h1>
-
-    <h2>Predictions List:</h2>
-    <ul>
-        {% for prediction in predictions %}
-            <li>{{ prediction }}</li>
-        {% endfor %}
-    </ul>
-
-    <h2>Predictions Table:</h2>
-    <table border="1">
-        {{ table | safe }}
-    </table>
+    {{ table | safe }}
+    <p style="font-weight: bold;color: black;margin-top: -250px;border-left: 600px;padding-left: 600px;width: 1350px;">Prediction Class 0: Normal Kidney</p>
+    <p style="font-weight: bold;padding-left: 600px;width: 1350px;">Prediction Class 1: Chronic Kidney</p>
     <link rel="stylesheet" href="{{ url_for ('static', filename='style.css')}}" />
     <div>
       <link href="{{ url_for ('static', filename='normal.css')}}" rel="stylesheet" />

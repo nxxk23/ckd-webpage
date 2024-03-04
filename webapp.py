@@ -1,4 +1,4 @@
-from flask import Flask, request, render_template, make_response
+from flask import Flask, request, render_template
 from sklearn.preprocessing import StandardScaler
 import joblib
 import pandas as pd
@@ -33,29 +33,37 @@ def upload_file():
         data = pd.read_excel(file_path)
         scaled_data = scaler.fit_transform(data)
 
-        # Make predictions using the pre-trained model
+        all_predictions = []
+        
+        #Make predictions using the pre-trained model
         predictions = model.predict(scaled_data)
+
+        # Append the predictions to the list
+        all_predictions.append(predictions)
+
+        # Create a DataFrame with a column for predictions
+        df = pd.DataFrame({'Predictions Class': predictions})
+
+        # Save the DataFrame to a new CSV file
+        df.to_csv('static/predictions.csv', index=False)
+       
+        # Convert DataFrame to HTML table
+        table = df.to_html()
+
+        # Check if the last prediction is 1
+        if predictions[-1] == 1:
+            result_template = 'chronic.html'
 
         # Count occurrences of each class
         class_counts = Counter(predictions)
 
-        # Determine the template to render based on the majority class or the last prediction
-        majority_class = class_counts.most_common(1)[0][0]
-        last_prediction = predictions[-1]
-
-        if majority_class == 0:
+        # Check conditions for rendering templates
+        if class_counts[0] > class_counts[1]:
             result_template = 'normal.html'
-        elif majority_class == 1 or last_prediction == 1:
+        else:
             result_template = 'chronic.html'
-        # Determine the template to render based on the prediction
-        #if all(value == 0 for value in predictions):
-        #    result_template = 'normal.html'
-        #elif any(value == 1 for value in predictions):
-        #    result_template = 'chronic.html'
-
-        # Pass the predictions list to the template
             
-        return render_template(result_template, predictions=predictions)
+        return render_template(result_template, table=table, all_predictions=all_predictions)
     
 if __name__ == "__main__":
     app.run(host='0.0.0.0', debug=True, port=5001)
