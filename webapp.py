@@ -51,6 +51,8 @@ def upload_file():
         table = df.to_html()
 
         # Check if the last prediction is 1
+        if predictions[-1] == 0:
+            result_template = 'normal.html'
         if predictions[-1] == 1:
             result_template = 'chronic.html'
 
@@ -58,10 +60,10 @@ def upload_file():
         class_counts = Counter(predictions)
 
         # Check conditions for rendering templates
-        if class_counts[0] > class_counts[1]:
-            result_template = 'normal.html'
-        else:
-            result_template = 'chronic.html'
+        #if class_counts[0] > class_counts[1]:
+        #    result_template = 'normal.html'
+        #else:
+        #    result_template = 'chronic.html'
             
         return render_template(result_template, table=table, all_predictions=all_predictions)
     
